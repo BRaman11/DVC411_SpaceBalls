@@ -11,7 +11,8 @@ public class NewBehaviourScript : MonoBehaviour{
     }
 
     void OnTriggerEnter (Collider otherCollider) {
-        if (otherCollider.GetComponent<Ball> () != null) {
+        GameObject ball = otherCollider.gameobject;
+        if (if ball.name=="Ball") {
             effectObject.SetActive (true);
         }
     }
