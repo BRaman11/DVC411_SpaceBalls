@@ -1,8 +1,86 @@
 fileFormatVersion: 2
 guid: 8efd4e458d132704981c93a5615f70c4
 ModelImporter:
-  serializedVersion: 22200
-  internalIDToNameTable: []
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 3934430668142740086
+    second: Armature|Armature|Armature|Armature|Armature|Armature|Armature|Idle|.000
+  - first:
+      74: 8879533257966469382
+    second: Armature|Armature|Armature|Armature|Armature|Armature|Armature|Idle|Arma
+  - first:
+      74: -9022619029717246924
+    second: Armature|Armature|Armature|Armature|Armature|Armature|Armature|Wrist.000
+  - first:
+      74: 7160269378526550137
+    second: Armature|Armature|Armature|Armature|Armature|Armature|Armature|Wrist|Arm
+  - first:
+      74: 2171034657260629122
+    second: Armature|Armature|Armature|Armature|Armature|Idle|Armature|Idle.001|Arma
+  - first:
+      74: -2246214215338903032
+    second: Armature|Armature|Armature|Armature|Armature|Idle|Armature|Idle|Arma.000
+  - first:
+      74: 2535341627481148263
+    second: Armature|Armature|Armature|Armature|Armature|Idle|Armature|Idle|Armature
+  - first:
+      74: -7186740911736669061
+    second: Armature|Armature|Armature|Armature|Armature|Wrist|Armature|Wrist.001|Ar
+  - first:
+      74: 3574632206936643509
+    second: Armature|Armature|Armature|Armature|Armature|Wrist|Armature|Wrist|Ar.000
+  - first:
+      74: -6589647951445240594
+    second: Armature|Armature|Armature|Armature|Armature|Wrist|Armature|Wrist|Armatu
+  - first:
+      74: 7129181387720803343
+    second: Armature|Armature|Armature|Armature|IndexSqueeze|IndexSqueeze|Armature|A
+  - first:
+      74: 8339319669969970189
+    second: Armature|Armature|Armature|Armature|MiddleSqueeze.001|MiddleSqueeze.001|
+  - first:
+      74: 4734034654047534922
+    second: Armature|Armature|Armature|Armature|MiddleSqueeze|MiddleSqueeze|Armature
+  - first:
+      74: -7442022336084938968
+    second: Armature|Armature|Armature|Armature|PinkySquueze|PinkySquueze|Armature|A
+  - first:
+      74: -6619532896037150775
+    second: Armature|Armature|Armature|Armature|RingSqueeze|RingSqueeze|Armature|Arm
+  - first:
+      74: -3938071787169060544
+    second: Armature|Armature|Armature|Armature|ThumbRot|ThumbRot|Armature|Armature|
+  - first:
+      74: -582132505576454421
+    second: Armature|Armature|Armature|Armature|ThumbSqueeze|ThumbSqueeze|Armature|A
+  - first:
+      74: 3949184196891408138
+    second: Armature|Armature|Armature|Idle|Armature|Idle
+  - first:
+      74: -79457305539577969
+    second: Armature|Armature|Armature|Wrist|Armature|Wrist
+  - first:
+      74: 8958896714541863687
+    second: Armature|Armature|IndexSqueeze|IndexSqueeze
+  - first:
+      74: -3516714010753550103
+    second: Armature|Armature|MiddleSqueeze.001|MiddleSqueeze.001
+  - first:
+      74: -7220206346743723273
+    second: Armature|Armature|MiddleSqueeze|MiddleSqueeze
+  - first:
+      74: -5562633381100702109
+    second: Armature|Armature|PinkySquueze|PinkySquueze
+  - first:
+      74: 3164568552793933512
+    second: Armature|Armature|RingSqueeze|RingSqueeze
+  - first:
+      74: -9036929268327004089
+    second: Armature|Armature|ThumbRot|ThumbRot
+  - first:
+      74: 1923172664507476699
+    second: Armature|Armature|ThumbSqueeze|ThumbSqueeze
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -40,7 +118,6 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -68,7 +145,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -101,8 +177,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
-  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
