@@ -382,6 +382,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Automove.cs"
 "Assets/Continuous Movement.cs"
+<<<<<<< Updated upstream
 "Assets/MainMenu.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
@@ -417,6 +418,9 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+=======
+"Assets/Scripts/ScoreArea.cs"
+>>>>>>> Stashed changes
 -langversion:9.0
 
 /deterministic
