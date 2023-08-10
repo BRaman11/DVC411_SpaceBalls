@@ -11,7 +11,7 @@ public class ScoreArea : MonoBehaviour {
 
     void OnTriggerEnter (Collider otherCollider) {
         GameObject ball = otherCollider.gameObject;
-        if (ball.name=="Ball") {
+        if (ball.name=="tennis_ball") {
             effectObject.SetActive (true);
         }
     }

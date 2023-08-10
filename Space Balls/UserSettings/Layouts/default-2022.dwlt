@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 110
+  controlID: 103
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 43
+  controlID: 39
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 44
+  controlID: 40
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,7 +394,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -402,16 +402,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jparker4\Documents\GitHub\DVC411_SpaceBalls\Space Balls
+  m_LastProjectPath: D:\DVC411_SpaceBalls\Space Balls
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 56670000
-    m_LastClickedID: 26454
-    m_ExpandedIDs: 00000000146700001667000000ca9a3bffffff7f
+    m_SelectedIDs: f0930000
+    m_LastClickedID: 37872
+    m_ExpandedIDs: 00000000be93000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001467000016670000
+    m_ExpandedIDs: 00000000be930000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -581,7 +581,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 16fbffffa4640000
+      m_ExpandedIDs: f0fafdffc4e1feffdce5feffe8e5feff2ae6feff0ae8feff9efffeffe201ffff70970000f497000006980000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -911,16 +911,16 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
+    - dockPosition: 0
+      containerId: Floating
+      floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 48, y: 10}
+      snapOffset: {x: 557, y: 214}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
-      index: 11
+      index: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -974,9 +974,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 523.1633, y: 44.047184, z: 446.0252}
+    m_Target: {x: 543.52, y: 36.118, z: 405.7}
     speed: 2
-    m_Value: {x: 523.1633, y: 44.047184, z: 446.0252}
+    m_Value: {x: 543.52, y: 36.118, z: 405.7}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1022,13 +1022,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0038974204, y: -0.986883, z: 0.16008529, w: 0.024616078}
+    m_Target: {x: 0.055143837, y: -0.9436618, z: 0.20498325, w: 0.25386313}
     speed: 2
-    m_Value: {x: 0.0038970571, y: -0.986791, z: 0.16007037, w: 0.024613783}
+    m_Value: {x: 0.05514375, y: -0.9436603, z: 0.20498294, w: 0.25386274}
   m_Size:
-    m_Target: 7.391123
+    m_Target: 5.6076765
     speed: 2
-    m_Value: 7.391123
+    m_Value: 5.6076765
   m_Ortho:
     m_Target: 0
     speed: 2
