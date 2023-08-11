@@ -7,7 +7,7 @@ public class ScoreInteraction : MonoBehaviour
 {
     public ScorindDisplay score;
 
-    void OnCollisionEnter(Collision col)
+    void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.name == "tennis_ball")
         {
