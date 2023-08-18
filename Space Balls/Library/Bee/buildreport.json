@@ -1,21 +1,22 @@
 {
-
-"Instructions Readme": "1) Open Chrome or Edge, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
-"processInfo": {
-    
-},
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
 
 "traceEvents":[
-{ "pid": 21884, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "Unity" } },
-{ "pid": 21884, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-100" } },
-{ "pid": 21884, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 21884, "tid": 1, "ts": 1691716691642229, "dur": 21942614, "ph": "X", "name": "Build player", "args": {} },
-{ "pid": 21884, "tid": 1, "ts": 1691716691643706, "dur": 47679, "ph": "X", "name": "Preprocess Player", "args": {} },
-{ "pid": 21884, "tid": 1, "ts": 1691716691738420, "dur": 21771393, "ph": "X", "name": "Prepare For Build", "args": {} },
-{ "pid": 21884, "tid": 1, "ts": 1691716713586458, "dur": 563, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
-{ "pid": 21884, "tid": 1, "ts": 1691716713590239, "dur": 748, "ph": "X", "name": "", "args": {} },
-{ "pid": 21884, "tid": 1, "ts": 1691716713588973, "dur": 2965, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.69232026230479E+15,"dur": 1943297, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.692320262315E+15,"dur": 38650, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.6923202624455E+15,"dur": 1114695, "ph":"X", "name": "Prepare For Build"},
+{ "pid": "Unity", "tid": 1,"ts": 1.6923202635602E+15,"dur": 640002, "ph":"X", "name": "ProducePlayerScriptAssemblies"},
+{ "pid": "Unity", "tid": 1,"ts": 1.6923202641846E+15,"dur": 15153, "ph":"X", "name": "Prebuild Cleanup and Recompile"},
 {}
 
-]
+],
+"meta_datetime": "08/18/2023 10:57:44",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.15f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\ultimo.media\\Desktop\\DVC411_SpaceBalls\\Space Balls\" -useHub -hubIPC -cloudEnvironment production -buildTarget Android -licensingIpc LicenseClient-ultimo.media -hubSessionId 23500ce0-3d54-11ee-8218-09263a59de60",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.15f1\\Editor\\Unity.exe -projectpath C:\\Users\\ultimo.media\\Desktop\\DVC411_SpaceBalls\\Space Balls -useHub -hubIPC -cloudEnvironment production -buildTarget Android -licensingIpc LicenseClient-ultimo.media -hubSessionId 23500ce0-3d54-11ee-8218-09263a59de60",
+"meta_user_name": "ultimo.media",
+"meta_os_version": "Microsoft Windows NT 10.0.19045.0",
+"meta_cpu_count": "8"
 }
